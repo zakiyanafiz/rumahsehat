@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daftar - Rumah Sehat</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Raleway', sans-serif;
+      background: url('assets/img/bglogin.jpg') no-repeat center center/cover;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .register-form {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 40px 30px;
+      border-radius: 16px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+      width: 100%;
+      max-width: 450px;
+      color: #fff;
+    }
+
+    .register-form h2 {
+      text-align: center;
+      font-size: 26px;
+      margin-bottom: 30px;
+    }
+
+    .register-form label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .register-form input {
+      width: 100%;
+      padding: 12px 15px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 30px;
+      background: rgba(255, 255, 255, 0.2);
+      color: #fff;
+      font-size: 14px;
+      outline: none;
+    }
+
+    .register-form input::placeholder {
+      color: #e0e0e0;
+    }
+
+    .register-form button {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 30px;
+      background-color: #0ea5e9;
+      color: white;
+      font-weight: 600;
+      font-size: 15px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .register-form button:hover {
+      background-color: #0284c7;
+    }
+
+    .login-link {
+      text-align: center;
+      font-size: 14px;
+      margin-top: 15px;
+    }
+
+    .login-link a {
+      color: #fff;
+      font-weight: 600;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      .register-form {
+        margin: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <form action="login.html" method="get" class="register-form">
+    <h2>Buat Akun Baru</h2>
+
+    <label for="name">Nama Lengkap</label>
+    <input type="text" id="name" name="name" placeholder="Nama lengkap Anda" required>
+
+    <label for="email">Email / No. HP</label>
+    <input type="text" id="email" name="email" placeholder="Email atau No HP" required>
+
+    <label for="password">Kata Sandi</label>
+    <input type="password" id="password" name="password" placeholder="Buat kata sandi" required>
+
+    <label for="confirm">Ulangi Kata Sandi</label>
+    <input type="password" id="confirm" name="confirm" placeholder="Ulangi kata sandi" required>
+
+    <button type="submit">Daftar</button>
+
+    <div class="login-link">
+      Sudah punya akun? <a href="login.html">Masuk di sini</a>
+    </div>
+  </form>
+
+</body>
+</html>

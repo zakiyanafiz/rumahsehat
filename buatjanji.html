@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Buat Janji - Rumah Sehat Boyolali</title>
+  <meta name="description" content="Jadwalkan janji temu Anda dengan mudah di Rumah Sehat Boyolali untuk mendapatkan perawatan kesehatan berkualitas.">
+  <meta name="keywords" content="Rumah Sehat, Boyolali, janji temu, booking online, kesehatan, dokter, spesialis">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  </head>
+
+<body class="appointment-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <img src="assets/img/logo.png" alt="Logo Rumah Sehat" style="height: 40px;">
+          <g id="bgCarrier" stroke-width="0"></g>
+          <g id="tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+          <g id="iconCarrier">
+            <path d="M22 22L2 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+            <path d="M17 22V6C17 4.11438 17 3.17157 16.4142 2.58579C15.8284 2 14.8856 2 13 2H11C9.11438 2 8.17157 2 7.58579 2.58579C7 3.17157 7 4.11438 7 6V22" stroke="currentColor" stroke-width="1.5"></path>
+            <path opacity="0.5" d="M21 22V8.5C21 7.09554 21 6.39331 20.6629 5.88886C20.517 5.67048 20.3295 5.48298 20.1111 5.33706C19.6067 5 18.9045 5 17.5 5" stroke="currentColor" stroke-width="1.5"></path>
+            <path opacity="0.5" d="M3 22V8.5C3 7.09554 3 6.39331 3.33706 5.88886C3.48298 5.67048 3.67048 5.48298 3.88886 5.33706C4.39331 5 5.09554 5 6.5 5" stroke="currentColor" stroke-width="1.5"></path>
+            <path d="M12 22V19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+            <path opacity="0.5" d="M10 12H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+            <path opacity="0.5" d="M5.5 11H7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+            <path opacity="0.5" d="M5.5 14H7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+            <path opacity="0.5" d="M17 11H18.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+            <path opacity="0.5" d="M17 14H18.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+            <path opacity="0.5" d="M5.5 8H7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+            <path opacity="0.5" d="M17 8H18.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+            <path opacity="0.5" d="M10 15H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+            <path d="M12 9V5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M14 7L10 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          </g>
+        </svg>
+
+        <h1 class="sitename">Rumah Sehat</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+ 
+          <li><a href="index.html">Beranda</a></li>
+
+          <li class="dropdown"><a href="#"><span>layanan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="layanan.html">layanan</a></li>
+              <li><a href="detaillayanan.html">Detail Layanan</a></li>
+            </ul>
+
+          <li class="dropdown"><a href="#"><span>spesialisasi</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="spesialisasi.html">Spesialisasi</a></li>
+              <li><a href="detail spesialsiasi.html">Detail Spesialisasi</a></li>
+            </ul>
+
+          <li><a href="timmedis.html">Tim Medis</a></li>          
+          <li><a href="tentang kami.html">Tentang Kami</a></li>
+
+          <li class="dropdown"><a href="#" class="active"><span>kontak</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="testimoni.html">Testimoni</a></li>
+              <li><a href="buatjanji.html">Buat Janji</a></li>
+              <li><a href="contact.html">Detail Kontak</a></li>
+            </ul>
+          </li>
+       
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="login.html">Login</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <div class="page-title">
+      <div class="breadcrumbs">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html"><i class="bi bi-house"></i> Beranda</a></li>
+            <li class="breadcrumb-item active current">Buat Janji</li>
+          </ol>
+        </nav>
+      </div>
+
+      <div class="title-wrapper">
+        <h1>Buat Janji Temu</h1>
+        <p>Jadwalkan janji temu Anda dengan mudah di Rumah Sehat Boyolali untuk mendapatkan perawatan yang Anda butuhkan.</p>
+      </div>
+    </div><section id="appointment" class="appointmnet section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+            <div class="appointment-info">
+              <h3>Layanan medis Online Cepat &amp; Mudah</h3>
+              <p class="mb-4">Pesan janji temu Anda hanya dalam beberapa langkah sederhana. Profesional kesehatan kami siap memberikan Anda perawatan medis terbaik yang disesuaikan dengan kebutuhan Anda.</p>
+
+              <div class="info-items">
+                <div class="info-item d-flex align-items-center mb-3" data-aos="fade-up" data-aos-delay="200">
+                  <div class="icon-wrapper me-3">
+                    <i class="bi bi-calendar-check"></i>
+                  </div>
+                  <div>
+                    <h5>Jadwal Fleksibel</h5>
+                    <p class="mb-0">Pilih dari slot waktu yang tersedia yang sesuai dengan jadwal sibuk Anda</p>
+                  </div>
+                </div><div class="info-item d-flex align-items-center mb-3" data-aos="fade-up" data-aos-delay="250">
+                  <div class="icon-wrapper me-3">
+                    <i class="bi bi-stopwatch"></i>
+                  </div>
+                  <div>
+                    <h5>Respon Cepat</h5>
+                    <p class="mb-0">Dapatkan konfirmasi dalam 15 menit setelah mengirimkan permintaan Anda</p>
+                  </div>
+                </div><div class="info-item d-flex align-items-center mb-3" data-aos="fade-up" data-aos-delay="300">
+                  <div class="icon-wrapper me-3">
+                    <i class="bi bi-shield-check"></i>
+                  </div>
+                  <div>
+                    <h5>Perawatan Medis Ahli</h5>
+                    <p class="mb-0">Dokter dan spesialis bersertifikat siap melayani Anda</p>
+                  </div>
+                </div></div>
+
+              <div class="emergency-contact mt-4" data-aos="fade-up" data-aos-delay="350">
+                <div class="emergency-card p-3">
+                  <h6 class="mb-2"><i class="bi bi-telephone-fill me-2"></i>Hotline Darurat</h6>
+                  <p class="mb-0">Hubungi <strong>+62 878 8921 3407</strong> untuk bantuan medis darurat</p>
+                </div>
+              </div>
+
+            </div>
+          </div><div class="col-lg-6">
+            <div class="appointment-form-wrapper" data-aos="fade-up" data-aos-delay="200">
+              <form action="forms/appointment.php" method="post" class="appointment-form php-email-form">
+                <div class="row gy-3">
+
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Nama Lengkap Anda" required="">
+                  </div>
+
+                  <div class="col-md-6">
+                    <input type="email" name="email" class="form-control" placeholder="Email Anda" required="">
+                  </div>
+
+                  <div class="col-md-6">
+                    <input type="tel" name="phone" class="form-control" placeholder="Nomor Telepon Anda" required="">
+                  </div>
+
+                  <div class="col-md-6">
+                    <select name="department" class="form-select" required="">
+                      <option value="">Pilih Spesialisasi</option>
+                      <option value="cardiology">Kardiologi</option>
+                      <option value="neurology">Neurologi</option>
+                      <option value="orthopedics">Ortopedi</option>
+                      <option value="pediatrics">Pediatri</option>
+                      <option value="dermatology">Dermatologi</option>
+                      <option value="general">Penyakit Dalam</option>
+                    </select>
+                  </div>
+
+                  <div class="col-md-6">
+                    <input type="date" name="date" class="form-control" required="">
+                  </div>
+
+                  <div class="col-md-6">
+                    <select name="doctor" class="form-select" required="">
+                      <option value="">Pilih Dokter</option>
+                      <option value="dr-zakiya">Dr. Zakiya</option>
+                      <option value="dr-nafiz">Dr. Nafiz</option>
+                      <option value="dr-muhamad">Dr. Muhamad</option>
+                      <option value="dr-abdan">Dr. Abdan</option>
+                      <option value="dr-syakuro">Dr. Syakuro</option>
+                    </select>
+                  </div>
+
+                  <div class="col-12">
+                    <textarea class="form-control" name="message" rows="5" placeholder="Jelaskan gejala atau alasan kunjungan Anda (opsional)"></textarea>
+                  </div>
+
+                  <div class="col-12">
+                    <div class="loading">Memuat</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Permintaan janji temu Anda berhasil dikirim. Kami akan segera menghubungi Anda!</div>
+
+                    <button type="submit" class="btn btn-appointment w-100">
+                      <i class="bi bi-calendar-plus me-2"></i>Buat Janji Temu
+                    </button>
+                  </div>
+
+                </div>
+              </form>
+            </div>
+          </div></div>
+
+        <div class="process-steps mt-5" data-aos="fade-up" data-aos-delay="300">
+          <div class="row text-center gy-4">
+            <div class="col-lg-3 col-md-6">
+              <div class="step-item">
+                <div class="step-number">1</div>
+                <div class="step-icon">
+                  <i class="bi bi-person-fill"></i>
+                </div>
+                <h5>Isi Detail</h5>
+                <p>Berikan informasi pribadi Anda dan pilih spesialisasi yang diinginkan</p>
+              </div>
+            </div><div class="col-lg-3 col-md-6">
+              <div class="step-item">
+                <div class="step-number">2</div>
+                <div class="step-icon">
+                  <i class="bi bi-calendar-event"></i>
+                </div>
+                <h5>Pilih Tanggal</h5>
+                <p>Pilih tanggal dan slot waktu yang Anda inginkan dari pilihan yang tersedia</p>
+              </div>
+            </div><div class="col-lg-3 col-md-6">
+              <div class="step-item">
+                <div class="step-number">3</div>
+                <div class="step-icon">
+                  <i class="bi bi-check-circle"></i>
+                </div>
+                <h5>Konfirmasi</h5>
+                <p>Terima konfirmasi instan dan detail janji temu melalui email atau SMS</p>
+              </div>
+            </div><div class="col-lg-3 col-md-6">
+              <div class="step-item">
+                <div class="step-number">4</div>
+                <div class="step-icon">
+                  <i class="bi bi-heart-pulse"></i>
+                </div>
+                <h5>Dapatkan Perawatan</h5>
+                <p>Kunjungi klinik kami pada waktu yang dijadwalkan dan terima perawatan kesehatan berkualitas</p>
+              </div>
+            </div></div>
+        </div></div>
+
+    </section></main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Rumah Sehat</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Boyolali, Jawa Tengah</p>
+            <p class="mt-3"><strong>Telepon:</strong> <span>+62 878 8921 3407</span></p>
+            <p><strong>Email:</strong> <span>zakiya.nafiz89@gmail.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href="https://x.com/slayszkyy"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.facebook.com/muhamadnafiz"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/@mhmdzkyynfz_"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.tiktok.com/@mhmdzkyynfz_"><i class="bi bi-tiktok"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Tautan Berguna</h4>
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="about.html">Tentang Kami</a></li>
+            <li><a href="services.html">Layanan</a></li>
+            <li><a href="terms.html">Syarat & Ketentuan</a></li>
+            <li><a href="privacy.html">Kebijakan Privasi</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Layanan Kami</h4>
+          <ul>
+            <li><a href="layanan.html">Kardiologi</a></li>
+            <li><a href="layanan.html">Neurologi</a></li>
+            <li><a href="layanan.html">Ortopedi</a></li>
+            <li><a href="layanan.html">Pediatri</a></li>
+            <li><a href="layanan.html">Gawat Darurat</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Informasi Lainnya</h4>
+          <ul>
+            <li><a href="tentang kami.html">FAQ</a></li>
+            <li><a href="galeri.html">Galeri</a></li>
+            <li><a href="karir.html">Karir</a></li>
+            <li><a href="berita.html">Berita</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Mitra Kami</h4>
+          <ul>
+            <li><a href="spesialisasi.html">Asuransi Kesehatan A</a></li>
+            <li><a href="spesialisasi.html">Farmasi B</a></li>
+            <li><a href="spesialisasi.html">Laboratorium C</a></li>
+            <li><a href="spesialisasi.html">Rumah Sakit D</a></li>
+            <li><a href="spesialisasi.html">Puskesmas E</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>&copy; <span>Hak Cipta</span> <strong class="px-1 sitename">Rumah Sehat Boyolali</strong> <span>Semua Hak Dilindungi Undang-Undang</span></p>
+      <div class="credits">
+        Didesain oleh <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
